@@ -1,0 +1,40 @@
+.container-four-card-section {
+  grid-template-columns: 30px 85% 30px;
+  grid-template-rows: 0px 25% 15px 25% 15px 25% 15px 25% 100px;
+}
+.teambuilder {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+.calculator {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+.karma {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 6;
+}
+.supervisor {
+  grid-column: 2;
+  grid-column-end: 2;
+  grid-row-start: 8;
+  grid-row-end: 8;
+}
+.void {
+  grid-row-start: 9;
+  grid-row-end: 9;
+  height: 150px;
+}
+.description-text-container {
+  max-width: 350px;
+  line-height: 0.8;
+}
+.title-container {
+  max-width: 390px;
+}
